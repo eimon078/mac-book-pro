@@ -71,8 +71,6 @@ document.querySelector("#btn-apply").addEventListener('click', function () {
     const pomoCode = document.getElementById('pomo-code');
     if (pomoCode.value == 'stevekaku') {
         const total = getValue('Total');
-        // const discount20 = 
-        // console.log(discount20);
         document.getElementById('Total').innerText = (total * 80) / 100.0;
         pomoCode.value = '';
     }
