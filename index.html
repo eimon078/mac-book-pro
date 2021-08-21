@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro</title>
+    <!-- Css Style Link  -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="container">
+            <div class='mac-book-container'>
+                <!-- Image div  -->
+                <div>
+                    <img id='img-style' src="images/mac.png" alt="">
+                </div>
+                <!-- calculation div  -->
+                <div>
+                    <div>
+                        <h1>Customer your Blue 24-inch <br>iMac with Apple M1 chip.</h1>
+                        <p>
+                            Apple M1 chip with 8-core CPU performance cores and 4 efficiency <br> cores, 7-core GPU, and
+                            16-core
+                            Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic
+                            Mouse
+                            Magic Keyboard- Us Englisg
+                        </p>
+                    </div>
+
+                    <!-- Memory content  -->
+                    <div class="div-container" id='memory-field'>
+                        <h3>Memory</h3>
+                        <button>8GB unified memory</button>
+                        <button>16GB unified memory</button>
+                    </div>
+                    <!-- storage content  -->
+                    <div class="div-container" id='storage-field'>
+                        <h3>Storage</h3>
+                        <button>256GB SSD storage</button>
+                        <button>512GB SSD storage</button>
+                        <button>1TB SSD storage</button>
+                    </div>
+                    <!-- Delivary Option  -->
+                    <div class="div-container" id='delivery-field'>
+                        <h3>Choose your delivery option</h3>
+                        <button>Friday,Aug 25 FREE Prime Delivery</button>
+                        <button>Friday,Aug 21 Delivery charge$<span>20</span></button>
+                    </div>
+                    <!-- Display Bill  -->
+                    <div class="div-container" id='display-bill'>
+                        <div class="display-div">
+                            <h3>Best Price</h3>
+                            <h3>$<span id='best-price'>1299</span></h3>
+                        </div>
+                        <hr>
+                        <div class="display-div">
+                            <h3>Extra Memory Cost</h3>
+                            <h3>$<span id='memory-cost'>0</span></h3>
+                        </div>
+                        <hr>
+                        <div class="display-div">
+                            <h3>Extra Storage Cost</h3>
+                            <h3>$<span id='storage-cost'>0</span></h3>
+                        </div>
+                        <hr>
+                        <div class="display-div">
+                            <h3>Delivery charge</h3>
+                            <h3>$<span id="delivery-cost">0</span></h3>
+                        </div>
+                        <hr id='total-hr-line'>
+                        <div class="display-div">
+                            <h3>Total Price</h3>
+                            <h3>$<span id='total-price'>1299</span></h3>
+                        </div>
+                        <hr>
+                        <!-- Pomo Code use field  -->
+                        <div id="div-hr">
+                            <h4>Add Pomo code</h4>
+                            <input type="text" id='pomo-code'>
+                            <button id="btn-apply">Apply</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div id='total'>
+                <h1>Total : $<span id="Total">1299</span></h1>
+            </div>
+        </section>
+    </main>
+
+    <!-- JavaScript link  -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
