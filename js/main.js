@@ -70,8 +70,8 @@ document.getElementById('delivery-field').addEventListener('click', function (ev
 document.querySelector("#btn-apply").addEventListener('click', function () {
     const pomoCode = document.getElementById('pomo-code');
     if (pomoCode.value == 'stevekaku') {
-        const total = getValue('Total');
-        document.getElementById('Total').innerText = (total * 80) / 100.0;
+        const totalPrice = getValue('total-price');
+        document.getElementById('Total').innerText = (totalPrice * 80) / 100;
         pomoCode.value = '';
     }
     else {
